@@ -83,7 +83,7 @@ public class Login_Page {
 		Sign_in_btn.click();
 		Thread.sleep(5000);
 		Verify_Demographics.click();
-		Thread.sleep(12000);
+		Thread.sleep(11000);
 		UseSameAddress.click();
 		log.info("Clicked on USE SAME ADDRESS");
 		Thread.sleep(12000);
