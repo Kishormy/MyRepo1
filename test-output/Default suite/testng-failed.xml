@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="TESTCASES.Login_Cancer_Purchase">
+        <methods>
+          <include name="Review_And_Submit"/>
+          <include name="Check_Thank_You_Page"/>
+          <include name="Get_Quote2"/>
+          <include name="Login"/>
+          <include name="OpenBroswer"/>
+          <include name="Answer_Cancer_Questions"/>
+          <include name="Checkout_From_Cart"/>
+          <include name="Checkout_FIll_Disclosures"/>
+          <include name="Checkout_Add_BankDetails"/>
+          <include name="Choose_Cancer"/>
+        </methods>
+      </class> <!-- TESTCASES.Login_Cancer_Purchase -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

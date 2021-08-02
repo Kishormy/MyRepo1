@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="TESTCASES.Purchase_Cancer_Insurance">
+        <methods>
+          <include name="Review_And_Submit"/>
+          <include name="Get_Quote2"/>
+          <include name="Checkout_From_Cart"/>
+          <include name="Answer_Cancer_Questions"/>
+          <include name="Checkout_Add_BankDetails"/>
+          <include name="Choose_Cancer"/>
+          <include name="Customer_Registration"/>
+          <include name="Check_Thank_You_Page"/>
+          <include name="Checkout_FIll_Disclosures"/>
+        </methods>
+      </class> <!-- TESTCASES.Purchase_Cancer_Insurance -->
+      <class name="TESTCASES.Purchase_Accident_Insurance">
+        <methods>
+          <include name="Choose_Accident"/>
+          <include name="Checkout_Add_creditcarddetials"/>
+          <include name="Customer_Registration"/>
+          <include name="Checkout_From_Cart"/>
+          <include name="Checkout_Add_Dependents"/>
+          <include name="Checkout_Add_beneficiary"/>
+          <include name="Checkout_FIll_Disclosures"/>
+          <include name="Review_And_Submit"/>
+          <include name="OpenBroswer"/>
+          <include name="Answer_ACC_Questions"/>
+          <include name="Check_Thank_You_Page"/>
+          <include name="Get_Quote2"/>
+        </methods>
+      </class> <!-- TESTCASES.Purchase_Accident_Insurance -->
+      <class name="TESTCASES.Purchase_Critical_Illness">
+        <methods>
+          <include name="Customer_Registration"/>
+          <include name="Checkout_Add_creditcarddetials"/>
+          <include name="Answer_CI_Questions"/>
+          <include name="Choose_Critical"/>
+          <include name="Checkout_From_Cart"/>
+          <include name="Checkout_Add_beneficiary"/>
+          <include name="Checkout_FIll_Disclosures"/>
+          <include name="Check_Thank_You_Page"/>
+          <include name="Get_Quote2"/>
+          <include name="Review_And_Submit"/>
+        </methods>
+      </class> <!-- TESTCASES.Purchase_Critical_Illness -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="30" failed="0" total="30" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LambaTestSuite" duration-ms="121" started-at="2021-06-24T18:36:45Z" finished-at="2021-06-24T18:36:45Z">
+    <groups>
+    </groups>
+    <test name="WIN8TEST" duration-ms="121" started-at="2021-06-24T18:36:45Z" finished-at="2021-06-24T18:36:45Z">
+      <class name="TESTCASES.Purchase_Accident_Insurance">
+        <test-method status="SKIP" signature="Choose_Accident()[pri:0, instance:TESTCASES.Purchase_Accident_Insurance@91161c7]" name="Choose_Accident" duration-ms="3" started-at="2021-06-25T00:06:45Z" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Choose_Accident -->
+        <test-method status="SKIP" signature="Get_Quote2()[pri:0, instance:TESTCASES.Purchase_Accident_Insurance@91161c7]" name="Get_Quote2" duration-ms="34" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Accident_Insurance.Choose_Accident" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Quote2 -->
+        <test-method status="SKIP" signature="Customer_Registration()[pri:0, instance:TESTCASES.Purchase_Accident_Insurance@91161c7]" name="Customer_Registration" duration-ms="0" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Accident_Insurance.Get_Quote2" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customer_Registration -->
+        <test-method status="SKIP" signature="Checkout_Add_Dependents()[pri:0, instance:TESTCASES.Purchase_Accident_Insurance@91161c7]" name="Checkout_Add_Dependents" duration-ms="0" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Accident_Insurance.Customer_Registration" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout_Add_Dependents -->
+        <test-method status="SKIP" signature="Answer_ACC_Questions()[pri:0, instance:TESTCASES.Purchase_Accident_Insurance@91161c7]" name="Answer_ACC_Questions" duration-ms="1" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Accident_Insurance.Checkout_Add_Dependents" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Answer_ACC_Questions -->
+        <test-method status="SKIP" signature="Checkout_From_Cart()[pri:0, instance:TESTCASES.Purchase_Accident_Insurance@91161c7]" name="Checkout_From_Cart" duration-ms="1" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Accident_Insurance.Answer_ACC_Questions" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout_From_Cart -->
+        <test-method status="SKIP" signature="Checkout_Add_beneficiary()[pri:0, instance:TESTCASES.Purchase_Accident_Insurance@91161c7]" name="Checkout_Add_beneficiary" duration-ms="0" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Accident_Insurance.Checkout_From_Cart" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout_Add_beneficiary -->
+        <test-method status="SKIP" signature="Checkout_Add_creditcarddetials()[pri:0, instance:TESTCASES.Purchase_Accident_Insurance@91161c7]" name="Checkout_Add_creditcarddetials" duration-ms="0" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Accident_Insurance.Checkout_Add_beneficiary" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout_Add_creditcarddetials -->
+        <test-method status="SKIP" signature="Checkout_FIll_Disclosures()[pri:0, instance:TESTCASES.Purchase_Accident_Insurance@91161c7]" name="Checkout_FIll_Disclosures" duration-ms="9" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Accident_Insurance.Checkout_Add_creditcarddetials" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout_FIll_Disclosures -->
+        <test-method status="SKIP" signature="Review_And_Submit()[pri:0, instance:TESTCASES.Purchase_Accident_Insurance@91161c7]" name="Review_And_Submit" duration-ms="0" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Accident_Insurance.Checkout_FIll_Disclosures" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Review_And_Submit -->
+        <test-method status="SKIP" signature="Check_Thank_You_Page()[pri:0, instance:TESTCASES.Purchase_Accident_Insurance@91161c7]" name="Check_Thank_You_Page" duration-ms="0" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Accident_Insurance.Review_And_Submit" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_Thank_You_Page -->
+      </class> <!-- TESTCASES.Purchase_Accident_Insurance -->
+    </test> <!-- WIN8TEST -->
+    <test name="WIN10TEST" duration-ms="120" started-at="2021-06-24T18:36:45Z" finished-at="2021-06-24T18:36:45Z">
+      <class name="TESTCASES.Purchase_Critical_Illness">
+        <test-method status="SKIP" signature="Choose_Critical()[pri:0, instance:TESTCASES.Purchase_Critical_Illness@5bcab519]" name="Choose_Critical" duration-ms="4" started-at="2021-06-25T00:06:45Z" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Choose_Critical -->
+        <test-method status="SKIP" signature="Get_Quote2()[pri:0, instance:TESTCASES.Purchase_Critical_Illness@5bcab519]" name="Get_Quote2" duration-ms="34" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Critical_Illness.Choose_Critical" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Quote2 -->
+        <test-method status="SKIP" signature="Customer_Registration()[pri:0, instance:TESTCASES.Purchase_Critical_Illness@5bcab519]" name="Customer_Registration" duration-ms="1" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Critical_Illness.Get_Quote2" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customer_Registration -->
+        <test-method status="SKIP" signature="Answer_CI_Questions()[pri:0, instance:TESTCASES.Purchase_Critical_Illness@5bcab519]" name="Answer_CI_Questions" duration-ms="1" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Critical_Illness.Customer_Registration" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Answer_CI_Questions -->
+        <test-method status="SKIP" signature="Checkout_From_Cart()[pri:0, instance:TESTCASES.Purchase_Critical_Illness@5bcab519]" name="Checkout_From_Cart" duration-ms="0" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Critical_Illness.Answer_CI_Questions" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout_From_Cart -->
+        <test-method status="SKIP" signature="Checkout_Add_beneficiary()[pri:0, instance:TESTCASES.Purchase_Critical_Illness@5bcab519]" name="Checkout_Add_beneficiary" duration-ms="0" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Critical_Illness.Checkout_From_Cart" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout_Add_beneficiary -->
+        <test-method status="SKIP" signature="Checkout_Add_creditcarddetials()[pri:0, instance:TESTCASES.Purchase_Critical_Illness@5bcab519]" name="Checkout_Add_creditcarddetials" duration-ms="3" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Critical_Illness.Checkout_Add_beneficiary" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout_Add_creditcarddetials -->
+        <test-method status="SKIP" signature="Checkout_FIll_Disclosures()[pri:0, instance:TESTCASES.Purchase_Critical_Illness@5bcab519]" name="Checkout_FIll_Disclosures" duration-ms="0" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Critical_Illness.Checkout_Add_creditcarddetials" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout_FIll_Disclosures -->
+        <test-method status="SKIP" signature="Review_And_Submit()[pri:0, instance:TESTCASES.Purchase_Critical_Illness@5bcab519]" name="Review_And_Submit" duration-ms="0" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Critical_Illness.Checkout_FIll_Disclosures" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Review_And_Submit -->
+        <test-method status="SKIP" signature="Check_Thank_You_Page()[pri:0, instance:TESTCASES.Purchase_Critical_Illness@5bcab519]" name="Check_Thank_You_Page" duration-ms="1" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Critical_Illness.Review_And_Submit" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_Thank_You_Page -->
+      </class> <!-- TESTCASES.Purchase_Critical_Illness -->
+    </test> <!-- WIN10TEST -->
+    <test name="MACTEST" duration-ms="105" started-at="2021-06-24T18:36:45Z" finished-at="2021-06-24T18:36:45Z">
+      <class name="TESTCASES.Purchase_Accident_Insurance">
+        <test-method status="FAIL" signature="OpenBroswer()[pri:0, instance:TESTCASES.Purchase_Accident_Insurance@91161c7]" name="OpenBroswer" is-config="true" duration-ms="0" started-at="2021-06-25T00:06:37Z" finished-at="2021-06-25T00:06:37Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Process unexpectedly closed with status 0
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-DCN9E5KL', ip: '192.168.43.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Process unexpectedly closed with status 0
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-DCN9E5KL', ip: '192.168.43.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+	at TESTCASES.Purchase_Accident_Insurance.OpenBroswer(Purchase_Accident_Insurance.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBroswer -->
+        <test-method status="SKIP" signature="OpenBroswer()[pri:0, instance:TESTCASES.Purchase_Critical_Illness@5bcab519]" name="OpenBroswer" is-config="true" duration-ms="0" started-at="2021-06-25T00:06:45Z" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBroswer -->
+        <test-method status="SKIP" signature="OpenBroswer()[pri:0, instance:TESTCASES.Purchase_Cancer_Insurance@5cb9f472]" name="OpenBroswer" is-config="true" duration-ms="0" started-at="2021-06-25T00:06:45Z" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBroswer -->
+        <test-method status="SKIP" signature="CloseBroswer()[pri:0, instance:TESTCASES.Purchase_Accident_Insurance@91161c7]" name="CloseBroswer" is-config="true" duration-ms="0" started-at="2021-06-25T00:06:46Z" finished-at="2021-06-25T00:06:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBroswer -->
+        <test-method status="SKIP" signature="CloseBroswer()[pri:0, instance:TESTCASES.Purchase_Critical_Illness@5bcab519]" name="CloseBroswer" is-config="true" duration-ms="0" started-at="2021-06-25T00:06:46Z" finished-at="2021-06-25T00:06:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBroswer -->
+        <test-method status="SKIP" signature="CloseBroswer()[pri:0, instance:TESTCASES.Purchase_Cancer_Insurance@5cb9f472]" name="CloseBroswer" is-config="true" duration-ms="0" started-at="2021-06-25T00:06:46Z" finished-at="2021-06-25T00:06:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBroswer -->
+      </class> <!-- TESTCASES.Purchase_Accident_Insurance -->
+      <class name="TESTCASES.Purchase_Cancer_Insurance">
+        <test-method status="SKIP" signature="Choose_Cancer()[pri:0, instance:TESTCASES.Purchase_Cancer_Insurance@5cb9f472]" name="Choose_Cancer" duration-ms="4" started-at="2021-06-25T00:06:45Z" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Choose_Cancer -->
+        <test-method status="SKIP" signature="Get_Quote2()[pri:0, instance:TESTCASES.Purchase_Cancer_Insurance@5cb9f472]" name="Get_Quote2" duration-ms="34" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Cancer_Insurance.Choose_Cancer" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Quote2 -->
+        <test-method status="SKIP" signature="Customer_Registration()[pri:0, instance:TESTCASES.Purchase_Cancer_Insurance@5cb9f472]" name="Customer_Registration" duration-ms="0" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Cancer_Insurance.Get_Quote2" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customer_Registration -->
+        <test-method status="SKIP" signature="Answer_Cancer_Questions()[pri:0, instance:TESTCASES.Purchase_Cancer_Insurance@5cb9f472]" name="Answer_Cancer_Questions" duration-ms="0" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Cancer_Insurance.Customer_Registration" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Answer_Cancer_Questions -->
+        <test-method status="SKIP" signature="Checkout_From_Cart()[pri:0, instance:TESTCASES.Purchase_Cancer_Insurance@5cb9f472]" name="Checkout_From_Cart" duration-ms="1" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Cancer_Insurance.Answer_Cancer_Questions" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout_From_Cart -->
+        <test-method status="SKIP" signature="Checkout_Add_BankDetails()[pri:0, instance:TESTCASES.Purchase_Cancer_Insurance@5cb9f472]" name="Checkout_Add_BankDetails" duration-ms="0" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Cancer_Insurance.Checkout_From_Cart" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout_Add_BankDetails -->
+        <test-method status="SKIP" signature="Checkout_FIll_Disclosures()[pri:0, instance:TESTCASES.Purchase_Cancer_Insurance@5cb9f472]" name="Checkout_FIll_Disclosures" duration-ms="0" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Cancer_Insurance.Checkout_Add_BankDetails" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout_FIll_Disclosures -->
+        <test-method status="SKIP" signature="Review_And_Submit()[pri:0, instance:TESTCASES.Purchase_Cancer_Insurance@5cb9f472]" name="Review_And_Submit" duration-ms="0" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Cancer_Insurance.Checkout_FIll_Disclosures" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Review_And_Submit -->
+        <test-method status="SKIP" signature="Check_Thank_You_Page()[pri:0, instance:TESTCASES.Purchase_Cancer_Insurance@5cb9f472]" name="Check_Thank_You_Page" duration-ms="0" started-at="2021-06-25T00:06:45Z" depends-on-methods="TESTCASES.Purchase_Cancer_Insurance.Review_And_Submit" finished-at="2021-06-25T00:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_Thank_You_Page -->
+      </class> <!-- TESTCASES.Purchase_Cancer_Insurance -->
+    </test> <!-- MACTEST -->
+  </suite> <!-- LambaTestSuite -->
+</testng-results>

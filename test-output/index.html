@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-LambaTestSuite">
+              <span class="suite-name border-skipped">LambaTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-LambaTestSuite">
+                    <span>F:\Automation files\SPRAOI\AFLAC\TestSuite_2.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-LambaTestSuite">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-LambaTestSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-LambaTestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-LambaTestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-LambaTestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-LambaTestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods,  30 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-LambaTestSuite" class="hide-methods skipped suite-LambaTestSuite"> (hide)</a> <!-- hide-methods skipped suite-LambaTestSuite -->
+                      <a href="#" panel-name="suite-LambaTestSuite" class="show-methods skipped suite-LambaTestSuite"> (show)</a> <!-- show-methods skipped suite-LambaTestSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-LambaTestSuite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Accident_Insurance" hash-for-method="Answer_ACC_Questions">Answer_ACC_Questions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Critical_Illness" hash-for-method="Answer_CI_Questions">Answer_CI_Questions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Cancer_Insurance" hash-for-method="Answer_Cancer_Questions">Answer_Cancer_Questions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Accident_Insurance" hash-for-method="Check_Thank_You_Page">Check_Thank_You_Page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Critical_Illness" hash-for-method="Check_Thank_You_Page">Check_Thank_You_Page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Cancer_Insurance" hash-for-method="Check_Thank_You_Page">Check_Thank_You_Page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Cancer_Insurance" hash-for-method="Checkout_Add_BankDetails">Checkout_Add_BankDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Accident_Insurance" hash-for-method="Checkout_Add_Dependents">Checkout_Add_Dependents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Accident_Insurance" hash-for-method="Checkout_Add_beneficiary">Checkout_Add_beneficiary</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Critical_Illness" hash-for-method="Checkout_Add_beneficiary">Checkout_Add_beneficiary</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Accident_Insurance" hash-for-method="Checkout_Add_creditcarddetials">Checkout_Add_creditcarddetials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Critical_Illness" hash-for-method="Checkout_Add_creditcarddetials">Checkout_Add_creditcarddetials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Accident_Insurance" hash-for-method="Checkout_FIll_Disclosures">Checkout_FIll_Disclosures</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Critical_Illness" hash-for-method="Checkout_FIll_Disclosures">Checkout_FIll_Disclosures</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Cancer_Insurance" hash-for-method="Checkout_FIll_Disclosures">Checkout_FIll_Disclosures</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Accident_Insurance" hash-for-method="Checkout_From_Cart">Checkout_From_Cart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Critical_Illness" hash-for-method="Checkout_From_Cart">Checkout_From_Cart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Cancer_Insurance" hash-for-method="Checkout_From_Cart">Checkout_From_Cart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Accident_Insurance" hash-for-method="Choose_Accident">Choose_Accident</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Cancer_Insurance" hash-for-method="Choose_Cancer">Choose_Cancer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Critical_Illness" hash-for-method="Choose_Critical">Choose_Critical</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Accident_Insurance" hash-for-method="Customer_Registration">Customer_Registration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Critical_Illness" hash-for-method="Customer_Registration">Customer_Registration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Cancer_Insurance" hash-for-method="Customer_Registration">Customer_Registration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Accident_Insurance" hash-for-method="Get_Quote2">Get_Quote2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Critical_Illness" hash-for-method="Get_Quote2">Get_Quote2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Cancer_Insurance" hash-for-method="Get_Quote2">Get_Quote2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Accident_Insurance" hash-for-method="Review_And_Submit">Review_And_Submit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Critical_Illness" hash-for-method="Review_And_Submit">Review_And_Submit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="TESTCASES.Purchase_Cancer_Insurance" hash-for-method="Review_And_Submit">Review_And_Submit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-LambaTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-LambaTestSuite" class="panel LambaTestSuite">
+          <div class="suite-LambaTestSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TESTCASES.Purchase_Cancer_Insurance</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Answer_Cancer_Questions">
+                  </a> <!-- Answer_Cancer_Questions -->
+                  <span class="method-name">Answer_Cancer_Questions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Check_Thank_You_Page">
+                  </a> <!-- Check_Thank_You_Page -->
+                  <span class="method-name">Check_Thank_You_Page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkout_Add_BankDetails">
+                  </a> <!-- Checkout_Add_BankDetails -->
+                  <span class="method-name">Checkout_Add_BankDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkout_FIll_Disclosures">
+                  </a> <!-- Checkout_FIll_Disclosures -->
+                  <span class="method-name">Checkout_FIll_Disclosures</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkout_From_Cart">
+                  </a> <!-- Checkout_From_Cart -->
+                  <span class="method-name">Checkout_From_Cart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Choose_Cancer">
+                  </a> <!-- Choose_Cancer -->
+                  <span class="method-name">Choose_Cancer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Customer_Registration">
+                  </a> <!-- Customer_Registration -->
+                  <span class="method-name">Customer_Registration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Quote2">
+                  </a> <!-- Get_Quote2 -->
+                  <span class="method-name">Get_Quote2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Review_And_Submit">
+                  </a> <!-- Review_And_Submit -->
+                  <span class="method-name">Review_And_Submit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LambaTestSuite-class-skipped -->
+          <div class="suite-LambaTestSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TESTCASES.Purchase_Critical_Illness</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Answer_CI_Questions">
+                  </a> <!-- Answer_CI_Questions -->
+                  <span class="method-name">Answer_CI_Questions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Check_Thank_You_Page">
+                  </a> <!-- Check_Thank_You_Page -->
+                  <span class="method-name">Check_Thank_You_Page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkout_Add_beneficiary">
+                  </a> <!-- Checkout_Add_beneficiary -->
+                  <span class="method-name">Checkout_Add_beneficiary</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkout_Add_creditcarddetials">
+                  </a> <!-- Checkout_Add_creditcarddetials -->
+                  <span class="method-name">Checkout_Add_creditcarddetials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkout_FIll_Disclosures">
+                  </a> <!-- Checkout_FIll_Disclosures -->
+                  <span class="method-name">Checkout_FIll_Disclosures</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkout_From_Cart">
+                  </a> <!-- Checkout_From_Cart -->
+                  <span class="method-name">Checkout_From_Cart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Choose_Critical">
+                  </a> <!-- Choose_Critical -->
+                  <span class="method-name">Choose_Critical</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Customer_Registration">
+                  </a> <!-- Customer_Registration -->
+                  <span class="method-name">Customer_Registration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Quote2">
+                  </a> <!-- Get_Quote2 -->
+                  <span class="method-name">Get_Quote2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Review_And_Submit">
+                  </a> <!-- Review_And_Submit -->
+                  <span class="method-name">Review_And_Submit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LambaTestSuite-class-skipped -->
+          <div class="suite-LambaTestSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TESTCASES.Purchase_Accident_Insurance</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Answer_ACC_Questions">
+                  </a> <!-- Answer_ACC_Questions -->
+                  <span class="method-name">Answer_ACC_Questions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Check_Thank_You_Page">
+                  </a> <!-- Check_Thank_You_Page -->
+                  <span class="method-name">Check_Thank_You_Page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkout_Add_Dependents">
+                  </a> <!-- Checkout_Add_Dependents -->
+                  <span class="method-name">Checkout_Add_Dependents</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkout_Add_beneficiary">
+                  </a> <!-- Checkout_Add_beneficiary -->
+                  <span class="method-name">Checkout_Add_beneficiary</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkout_Add_creditcarddetials">
+                  </a> <!-- Checkout_Add_creditcarddetials -->
+                  <span class="method-name">Checkout_Add_creditcarddetials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkout_FIll_Disclosures">
+                  </a> <!-- Checkout_FIll_Disclosures -->
+                  <span class="method-name">Checkout_FIll_Disclosures</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkout_From_Cart">
+                  </a> <!-- Checkout_From_Cart -->
+                  <span class="method-name">Checkout_From_Cart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Choose_Accident">
+                  </a> <!-- Choose_Accident -->
+                  <span class="method-name">Choose_Accident</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Customer_Registration">
+                  </a> <!-- Customer_Registration -->
+                  <span class="method-name">Customer_Registration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Quote2">
+                  </a> <!-- Get_Quote2 -->
+                  <span class="method-name">Get_Quote2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Review_And_Submit">
+                  </a> <!-- Review_And_Submit -->
+                  <span class="method-name">Review_And_Submit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LambaTestSuite-class-skipped -->
+        </div> <!-- panel LambaTestSuite -->
+        <div panel-name="test-xml-LambaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Automation files\SPRAOI\AFLAC\TestSuite_2.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; name=&quot;LambaTestSuite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;WIN8TEST&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;62.0&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;WIN8&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TESTCASES.Purchase_Accident_Insurance&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WIN8TEST --&gt;
+  &lt;test name=&quot;WIN10TEST&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;79.0&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;WIN10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TESTCASES.Purchase_Critical_Illness&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WIN10TEST --&gt;
+  &lt;test name=&quot;MACTEST&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;safari&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;11.0&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;macos 10.13&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TESTCASES.Purchase_Cancer_Insurance&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MACTEST --&gt;
+&lt;/suite&gt; &lt;!-- LambaTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-LambaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for LambaTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">WIN8TEST (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">WIN10TEST (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MACTEST (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-LambaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for LambaTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-LambaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for LambaTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_LambaTestSuite');
+function tableData_LambaTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Get_Quote2')
+data.setCell(0, 2, 'TESTCASES.Purchase_Accident_Insurance')
+data.setCell(0, 3, 34);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Get_Quote2')
+data.setCell(1, 2, 'TESTCASES.Purchase_Critical_Illness')
+data.setCell(1, 3, 34);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Get_Quote2')
+data.setCell(2, 2, 'TESTCASES.Purchase_Cancer_Insurance')
+data.setCell(2, 3, 34);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Checkout_FIll_Disclosures')
+data.setCell(3, 2, 'TESTCASES.Purchase_Accident_Insurance')
+data.setCell(3, 3, 9);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Choose_Critical')
+data.setCell(4, 2, 'TESTCASES.Purchase_Critical_Illness')
+data.setCell(4, 3, 4);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Choose_Cancer')
+data.setCell(5, 2, 'TESTCASES.Purchase_Cancer_Insurance')
+data.setCell(5, 3, 4);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Choose_Accident')
+data.setCell(6, 2, 'TESTCASES.Purchase_Accident_Insurance')
+data.setCell(6, 3, 3);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Checkout_Add_creditcarddetials')
+data.setCell(7, 2, 'TESTCASES.Purchase_Critical_Illness')
+data.setCell(7, 3, 3);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Checkout_From_Cart')
+data.setCell(8, 2, 'TESTCASES.Purchase_Accident_Insurance')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Answer_ACC_Questions')
+data.setCell(9, 2, 'TESTCASES.Purchase_Accident_Insurance')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Customer_Registration')
+data.setCell(10, 2, 'TESTCASES.Purchase_Critical_Illness')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Check_Thank_You_Page')
+data.setCell(11, 2, 'TESTCASES.Purchase_Critical_Illness')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Answer_CI_Questions')
+data.setCell(12, 2, 'TESTCASES.Purchase_Critical_Illness')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Checkout_From_Cart')
+data.setCell(13, 2, 'TESTCASES.Purchase_Cancer_Insurance')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Check_Thank_You_Page')
+data.setCell(14, 2, 'TESTCASES.Purchase_Accident_Insurance')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Customer_Registration')
+data.setCell(15, 2, 'TESTCASES.Purchase_Accident_Insurance')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Checkout_Add_beneficiary')
+data.setCell(16, 2, 'TESTCASES.Purchase_Accident_Insurance')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Review_And_Submit')
+data.setCell(17, 2, 'TESTCASES.Purchase_Accident_Insurance')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Checkout_Add_Dependents')
+data.setCell(18, 2, 'TESTCASES.Purchase_Accident_Insurance')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Checkout_Add_creditcarddetials')
+data.setCell(19, 2, 'TESTCASES.Purchase_Accident_Insurance')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Checkout_FIll_Disclosures')
+data.setCell(20, 2, 'TESTCASES.Purchase_Critical_Illness')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Checkout_From_Cart')
+data.setCell(21, 2, 'TESTCASES.Purchase_Critical_Illness')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Checkout_Add_beneficiary')
+data.setCell(22, 2, 'TESTCASES.Purchase_Critical_Illness')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Review_And_Submit')
+data.setCell(23, 2, 'TESTCASES.Purchase_Critical_Illness')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'Answer_Cancer_Questions')
+data.setCell(24, 2, 'TESTCASES.Purchase_Cancer_Insurance')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Customer_Registration')
+data.setCell(25, 2, 'TESTCASES.Purchase_Cancer_Insurance')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'Checkout_FIll_Disclosures')
+data.setCell(26, 2, 'TESTCASES.Purchase_Cancer_Insurance')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'Review_And_Submit')
+data.setCell(27, 2, 'TESTCASES.Purchase_Cancer_Insurance')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'Check_Thank_You_Page')
+data.setCell(28, 2, 'TESTCASES.Purchase_Cancer_Insurance')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'Checkout_Add_BankDetails')
+data.setCell(29, 2, 'TESTCASES.Purchase_Cancer_Insurance')
+data.setCell(29, 3, 0);
+window.suiteTableData['LambaTestSuite']= { tableData: data, tableDiv: 'times-div-LambaTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 131 ms</span>
+              <div id="times-div-LambaTestSuite">
+              </div> <!-- times-div-LambaTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-LambaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for LambaTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-LambaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-LambaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TESTCASES.Purchase_Accident_Insurance</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">OpenBroswer</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">Choose_Accident</span>
+                <span class="method-start">8133 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TESTCASES.Purchase_Critical_Illness</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Choose_Critical</span>
+                <span class="method-start">8133 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TESTCASES.Purchase_Cancer_Insurance</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Choose_Cancer</span>
+                <span class="method-start">8133 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
